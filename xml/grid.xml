@@ -10,7 +10,7 @@
 				<column width="100" type="ed" align="left"  sort="str">Author</column>
 				<column width="80" type="price" align="right" sort="str">Price</column>
 				<column width="80" type="ch" align="center" sort="str">In Store</column>
-				<column width="80" type="co" align="left" sort="str">Shipping
+				<column width="80" type="co" align="center" sort="str">Shipping
 					<option value="1">1</option>
 					<option value="2">2</option>
 					<option value="3">3</option>

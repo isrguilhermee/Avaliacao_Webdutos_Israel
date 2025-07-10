@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Teste Grid Webdutos</title>
+    <link rel="stylesheet" href="codebase/dhtmlx.css" />
+    <script src="codebase/dhtmlx.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div><h1>Teste Grid Webdutos</h1></div>
+
+    <div id="mygrid_container"></div>
+
+    <script type="text/javascript">
+      dhtmlxEvent(window, "load", function () {
+        mygrid = new dhtmlXGridObject("mygrid_container");
+        mygrid.setImagePath("codebase/imgs/");
+        mygrid.load("xml/grid.xml");
+        mygrid.init();
+      });
+    </script>
+  </body>
+</html>
